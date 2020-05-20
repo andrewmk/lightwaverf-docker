@@ -40,4 +40,4 @@ room:
   - coatroom
   - diningroom
   mood:
-host: 255.255.255.255
+host: 192.168.1.100
