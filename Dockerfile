@@ -6,5 +6,5 @@ RUN apk update && \
     apk add $BUILD_PACKAGES && \
     rm -rf /var/cache/apk/* && \
     gem install lightwaverf && \
-    apk remove $BUILD_PACKAGES
+    apk del $BUILD_PACKAGES
 COPY lightwaverf-config.yml /root/
