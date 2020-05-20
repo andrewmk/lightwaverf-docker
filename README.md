@@ -1,5 +1,5 @@
 # lightwaverf-docker
-Run lightwaverf interface commands in a docker container
+Run lightwaverf API commands in a docker container
 
 from ruby:alpine
 
