@@ -1,0 +1,43 @@
+---
+sequence:
+  rampupbedroom:
+  - - lights
+    - bedroom
+    - '20'
+  - - pause
+    - '24'
+  - - lights
+    - bedroom
+    - '40'
+  - - pause
+    - '24'
+  - - lights
+    - bedroom
+    - '60'
+  - - pause
+    - '24'
+  - - lights
+    - bedroom
+    - '80'
+  - - pause
+    - '24'
+  - - lights
+    - bedroom
+    - '100'
+  - - pause
+    - '3'
+  - - lights
+    - bedroom
+    - full
+room:
+- name: lights
+  device:
+  - livingroom
+  - hall
+  - landing
+  - study1
+  - bedroom
+  - coatroom
+  - diningroom
+  mood:
+host: 255.255.255.255
